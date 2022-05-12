@@ -1,0 +1,125 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #333;
+    color:azure
+}
+.menubar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:30px;
+}
+.menubar>div>a{
+    color: azure;
+    text-decoration: none;
+}
+.menubar>div>a:hover {
+    color:cadetblue;
+}
+.info{
+    display: flex;
+    justify-content:space-around;
+    padding: 20px;
+    background-color: #923cb5;
+    background-image: linear-gradient(147deg, #923cb5 0%, #000000 74%);
+}
+#name{
+    font-size: 5em;
+    color: yellowgreen;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+.Desc{
+    font-size: 1.5em;
+    color: whitesmoke;
+    padding: 5px;
+    font-family:monospace;
+}
+#profile-img> img{
+    width:200px;
+    height: auto;
+}
+.myskills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #7F53AC;
+    background: linear-gradient(315deg, #9c70c8 0%, #768ae4 74%);
+    padding: 10px;
+}
+.myskills>#heading{
+    font-family:'Courier New', Courier, monospace;
+    color:white;
+    font-weight: bolder;
+    font-size: 5em;
+}
+.myskillimg > img {
+    height : 200px;
+    width: 190px;
+    border : 5px solid black;
+    border-image: linear-gradient(45deg, #ff9800 0%, purple) ;
+    border-image-slice: 9;
+    border-style: solid;
+    padding:30px 15px;
+}
+.portfolio{
+    background-color: #923cb5;
+    background-image: linear-gradient(147deg, #923cb5 0%, #000000 74%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+#title{
+    font-size: 5em;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    color: yellowgreen;
+}
+.portfolio > div >a >img{
+    height: 300px;
+    width: auto;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #DEF0FF;
+    padding: 10px;
+}
+#contactme{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 5em;
+    font-weight: bolder;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+.contact > div > div > a > img {
+    height: 60px;
+    width: auto;
+}
+#email{
+    font-size: 2em;
+}
+.footer{
+    background-color: #333;
+    color: #7a7a7a;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 5px;
+    font-size: 1.2em;
+}
