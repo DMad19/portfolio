@@ -1,0 +1,102 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    /* 🌞 Day Match Theme */
+    --color-bg: #ffffff;                     /* Bright stadium sunlight white */
+    --color-bg-card: #f3f4f6;                /* Light grey card background */
+    --color-border: #d1d5db;                 /* Subtle boundary lines */
+
+    /* 🏏 Cricket Accents */
+    --color-field-green: #22c55e;            /* Fresh turf */
+    --color-pitch-brown: #b45309;            /* Dry earthy pitch */
+    --color-bat-wood: #eab308;               /* Polished bat wood yellow */
+    --color-ball-red: #dc2626;               /* Red ball */
+    --color-boundary-white: #fefefe;         /* Rope boundary white */
+
+    /* 🧠 Code Accent */
+    --color-code-blue: #2563eb;              /* Dev link color */
+
+    /* 🎨 Text */
+    --text-primary: #111827;                 /* Deep readable black */
+    --text-secondary: #475569;               /* Medium grey */
+
+    /* ✨ Shadows */
+    --shadow-soft: 0 2px 4px rgba(0, 0, 0, 0.05);
+    --shadow-crisp: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+    /* 🌟 Semantic Tokens */
+    --bg-primary: var(--color-bg);
+    --bg-card: var(--color-bg-card);
+    --border-default: var(--color-border);
+    --accent-cricket: var(--color-field-green);
+    --accent-code: var(--color-code-blue);
+    --accent-ball: var(--color-ball-red);
+    --accent-bat: var(--color-bat-wood);
+    --accent-pitch: var(--color-pitch-brown);
+    --accent-boundary: var(--color-boundary-white);
+    
+    --space-section-padding: 3rem;
+    --space-card-padding: 1.25rem;
+    --card-border-radius: 0.75rem;
+    --card-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    --card-scale: 1;
+  }
+}
+
+@layer base {
+  .dark {
+    /* 🌙 Night Match Theme */
+    --color-bg: #0d1117;                     /* Stadium under lights */
+    --color-bg-card: #161b22;                /* Slightly raised surface */
+    --color-border: #30363d;
+
+    /* 🏏 Cricket Accents */
+    --color-field-green: #056839;            /* Deep green under floodlights */
+    --color-pitch-brown: #8b5e3c;            /* Dimmer pitch tone */
+    --color-bat-wood: #c08457;               /* Warm wood */
+    --color-ball-red: #b91c1c;               /* Crimson red */
+    --color-boundary-white: #f9fafb;         /* Visible white rope */
+
+    /* 🧠 Code Accent */
+    --color-code-blue: #58a6ff;              /* VSCode link blue */
+
+    /* 🎨 Text */
+    --text-primary: #e6edf3;                 /* Bright off-white */
+    --text-secondary: #8b949e;               /* Dimmer label text */
+
+    /* ✨ Shadows */
+    --shadow-soft: 0 2px 4px rgba(255, 255, 255, 0.04);
+    --shadow-crisp: 0 4px 12px rgba(255, 255, 255, 0.08);
+
+    /* 🌟 Semantic Tokens */
+    --bg-primary: var(--color-bg);
+    --bg-card: var(--color-bg-card);
+    --border-default: var(--color-border);
+    --accent-cricket: var(--color-field-green);
+    --accent-code: var(--color-code-blue);
+    --accent-ball: var(--color-ball-red);
+    --accent-bat: var(--color-bat-wood);
+    --accent-pitch: var(--color-pitch-brown);
+    --accent-boundary: var(--color-boundary-white);
+
+    --space-section-padding: 5rem;
+    --space-card-padding: 2rem;
+    --card-border-radius: 1rem;
+    --card-shadow: 0 6px 20px rgba(255, 255, 255, 0.06);
+    --card-scale: 1.02;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-[var(--color-bg-card)] border border-[var(--border-default)]
+           rounded-[var(--card-border-radius)] p-[var(--space-card-padding)]
+           shadow transition-all duration-300 
+           hover:shadow-[var(--card-shadow)] hover:scale-[var(--card-scale)];
+  }
+}
+
+
+
+
