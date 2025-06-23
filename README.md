@@ -1,12 +1,26 @@
-# React + Vite
+# DMad19 Portfolio — Cricket & Coding Fusion
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal portfolio website showcasing my coding projects, skills, blog, and contact info — all styled with a cricket theme.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-   **Home (The Pavilion):** Intro with cricket + coding theme
+-   **About (Player Profile):** My journey in coding and cricket
+-   **Projects (Scoreboard):** Coding projects as matches/innings (dynamically fetched from GitHub)
+-   **Skills (Style):** My tech stack and tools
+-   **Blog (Commentary Box):** Thoughts and short posts (optional, embedded LinkedIn iframe)
+-   **Contact (Dressing Room):** Contact form styled like a team locker room
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-   React 18
+-   Tailwind CSS (custom cricket-themed colors)
+-   Framer Motion for animations
+-   Axios for API calls (GitHub)
+-   Deployment on Vercel / GitHub Pages
+
+## Getting Started
+
+### Prerequisites
+
+-   Node.js and npm installed
