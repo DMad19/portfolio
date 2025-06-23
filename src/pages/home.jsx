@@ -23,7 +23,9 @@ const Home = () => {
           <div className="flex flex-col md:flex-row gap-4 justify-center md:justify-start">
             <Link
               to="/projects"
-              className="px-6 py-2 rounded-md bg-[var(--accent-code)] text-[var(--color-boundary-line)] hover:bg-[var(--color-highlight-yellow)] hover:text-[var(--bg-primary)] transition-colors duration-200"
+              className="px-6 py-2 rounded-md bg-[var(--accent-code)] text-[var(--accent-boundary)] 
+                        hover:bg-[var(--accent-cricket)] hover:text-[var(--bg-primary)] 
+                        transition-colors duration-200"
             >
               View Scoreboard
             </Link>
